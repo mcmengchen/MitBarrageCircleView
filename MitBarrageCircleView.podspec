@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'MitBarrageCircleView'
-  s.version          = '0.1.0'
+  s.version="0.1.0"
   s.summary          = ' summary of MitBarrageCircleView.'
   s.description      = ' description of MitBarrageCircleView.'
   s.homepage         = 'https://github.com/mcmengchen/MitBarrageCircleView'
