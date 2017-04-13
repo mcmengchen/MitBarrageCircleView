@@ -4,3 +4,6 @@ target 'MitBarrageCircleView_Tests' do
   
   
 end
+target 'MitBarrageCircleView' do
+    pod 'MitBarrageCircleView', :path => '../'
+end

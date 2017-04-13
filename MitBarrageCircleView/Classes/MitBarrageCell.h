@@ -1,9 +1,9 @@
 //
 //  MitBarrageCell.h
-//  Hao123News
+//  mc
 //
 //  Created by Meng,Chen on 2017/4/12.
-//  Copyright © 2017年 Baidu. All rights reserved.
+//  Copyright © 2017年 mc. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

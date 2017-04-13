@@ -1,0 +1,919 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0980BA8FF8FB5D4A259E19751CC8348E /* MitLeftAlignedLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 042054C6B4C88C77784EBB64202C00F4 /* MitLeftAlignedLayout.m */; };
+		23B333FEC0D70C2F9F37F2302ED5B0F9 /* MitBarrageCircleView-iOS8.3-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8831EE2AF39DF72B6AE8B4A013CCBF47 /* MitBarrageCircleView-iOS8.3-dummy.m */; };
+		25BBAF900DA98A76C2C7820677B6CE8E /* MitLeftAlignedLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 23F3050B7F0C78D028512E631CCFDC69 /* MitLeftAlignedLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		328C2A06DA1DD9E5D5C382EC4F06B29C /* MitBarrageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B179447D03BB72B4E7D6C67F8BB14F2 /* MitBarrageItem.m */; };
+		33B0DFF3B6E79C495A64EB5DBDC91C1D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		33BF75C98CCB7A989DF6E44C4F62717A /* MitBarrageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDA123E8A475170833050360F8F6761 /* MitBarrageCell.m */; };
+		401F85FFB99A70B7C057095FDACD411C /* MitBarrageCell.h in Headers */ = {isa = PBXBuildFile; fileRef = AB22D93278B5E9DD9066E9C6289E1D80 /* MitBarrageCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56EC3623EA779534DF2EAE86928FDBFB /* Pods-MitBarrageCircleView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F34E0B4AA04A57E0EF3B0DD6954F746 /* Pods-MitBarrageCircleView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A68F39D508D02B9BA0214FB8A493822 /* MitBarrageCircleView.h in Headers */ = {isa = PBXBuildFile; fileRef = D1F4F70A3A269FEC45C15EB592C83EA2 /* MitBarrageCircleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6377BD13E31AF30F18735560F6AACD4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		64EC02EA2EAD03C35C864AC20BE11188 /* Pods-MitBarrageCircleView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F14C26AD70FF5FCCA6365B73CFCFFBDD /* Pods-MitBarrageCircleView-dummy.m */; };
+		6F3D0F7A92F001E644D9BEA4EE7A8B6D /* MitBarrageCircleView-iOS8.0-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 87BF970522CC28B83FCB6D297E5DFB0A /* MitBarrageCircleView-iOS8.0-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F41DCB814E4DCA48D8C52351BC3C1F0 /* MitLeftAlignedLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 23F3050B7F0C78D028512E631CCFDC69 /* MitLeftAlignedLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7230FD45E9031F63D3D3147B02ACCF3B /* MitBarrageContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 69184913B65D1B099F2F622189E719DA /* MitBarrageContentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72980B420B77252AE4B36E95596DE2E3 /* MitBarrageCircleView.h in Headers */ = {isa = PBXBuildFile; fileRef = D1F4F70A3A269FEC45C15EB592C83EA2 /* MitBarrageCircleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78C34FFD88F3AC0945398F2D5485BF2A /* MitBarrageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDA123E8A475170833050360F8F6761 /* MitBarrageCell.m */; };
+		7FAB18258695DEDE9F4927491C581998 /* MitBarrageCell.h in Headers */ = {isa = PBXBuildFile; fileRef = AB22D93278B5E9DD9066E9C6289E1D80 /* MitBarrageCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8119B0AA0FA1F2EDF6158B1C9ED010C9 /* MitBarrageCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F89188AB5F0A7E6C261642CD6166A06 /* MitBarrageCircleView.m */; };
+		8288872188AE0D78F1EB24CF76DA5C16 /* Pods-MitBarrageCircleView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 89FB623295EA8EA382CC2AAC0E188C20 /* Pods-MitBarrageCircleView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		833E390515094392DEBF67FBF4DE0949 /* MitBarrageCircleView-iOS8.3-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 08861194A9F8E94723596215D26DE06C /* MitBarrageCircleView-iOS8.3-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E376A8B9150C98436E9B6D5C3EE730B /* MitBarrageCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F89188AB5F0A7E6C261642CD6166A06 /* MitBarrageCircleView.m */; };
+		987E2D970C8832C8367F2384407BA8DA /* MitBarrageContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7BB87FD5F8178F9F1BD8C6A069671E /* MitBarrageContentView.m */; };
+		9A9055DCF1E8CFE7EFD3062320EA74DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		AE6B906F973221B9C627A9CA2FC8D94A /* MitBarrageContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 69184913B65D1B099F2F622189E719DA /* MitBarrageContentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C006C181F7F133F41CBE815CC6A54699 /* MitBarrageCircleView-iOS8.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 530520CBFE31A1DE84DA1559B18CC78D /* MitBarrageCircleView-iOS8.0-dummy.m */; };
+		C3C60013E6B14DA3350FFB62066720D6 /* MitLeftAlignedLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 042054C6B4C88C77784EBB64202C00F4 /* MitLeftAlignedLayout.m */; };
+		DC4D5E133FF6A9B87FD5EE44DB0A8BE7 /* MitBarrageItem.h in Headers */ = {isa = PBXBuildFile; fileRef = BA6A92FE854AD4D07A737484C80BD9BD /* MitBarrageItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD1DCBFF9846F399BF10807941CE61B8 /* MitBarrageContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7BB87FD5F8178F9F1BD8C6A069671E /* MitBarrageContentView.m */; };
+		E0EA98901BC8AEF0B40F734458AB435C /* Pods-MitBarrageCircleView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D69D86D7A73A6ABFBA1F84B2714933B5 /* Pods-MitBarrageCircleView_Tests-dummy.m */; };
+		E80C213729D49710C84A2D48E9B27040 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F23DC812F2B15DB70232235DE2E5499E /* MitBarrageItem.h in Headers */ = {isa = PBXBuildFile; fileRef = BA6A92FE854AD4D07A737484C80BD9BD /* MitBarrageItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD9A5FD8A261638EA839C9A6848E44BA /* MitBarrageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B179447D03BB72B4E7D6C67F8BB14F2 /* MitBarrageItem.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		89EE979C799C59D791D6F3717A317991 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CC4F132CBA5C495EC39B939748EF92C;
+			remoteInfo = "MitBarrageCircleView-iOS8.0";
+		};
+		D64312205581B0C82E8EDD5B2B8090E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B2C92E9E0C7615E14118707ED39E2B8;
+			remoteInfo = "MitBarrageCircleView-iOS8.3";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		006DA88ECE78D059E822BA9C63B14ECC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		011C4190DBBAC612699AC9016F0523BA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		028247C9DFBF5779A22810D71F916274 /* Pods-MitBarrageCircleView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MitBarrageCircleView_Tests-resources.sh"; sourceTree = "<group>"; };
+		042054C6B4C88C77784EBB64202C00F4 /* MitLeftAlignedLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MitLeftAlignedLayout.m; sourceTree = "<group>"; };
+		08861194A9F8E94723596215D26DE06C /* MitBarrageCircleView-iOS8.3-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MitBarrageCircleView-iOS8.3-umbrella.h"; path = "../MitBarrageCircleView-iOS8.3/MitBarrageCircleView-iOS8.3-umbrella.h"; sourceTree = "<group>"; };
+		1F89188AB5F0A7E6C261642CD6166A06 /* MitBarrageCircleView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MitBarrageCircleView.m; sourceTree = "<group>"; };
+		224C72FFBCFA05F531935F989D7662A2 /* Pods-MitBarrageCircleView-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MitBarrageCircleView-resources.sh"; sourceTree = "<group>"; };
+		23F3050B7F0C78D028512E631CCFDC69 /* MitLeftAlignedLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MitLeftAlignedLayout.h; sourceTree = "<group>"; };
+		3A7BB87FD5F8178F9F1BD8C6A069671E /* MitBarrageContentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MitBarrageContentView.m; sourceTree = "<group>"; };
+		45AB6C93C40DE3A646444E1FBF8D508C /* Pods-MitBarrageCircleView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MitBarrageCircleView.release.xcconfig"; sourceTree = "<group>"; };
+		475347CB11DA1CB6BD9A756F328AB7E3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4951420ACBB73DA94CE20C2F3FCA593A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../MitBarrageCircleView-iOS8.3/Info.plist"; sourceTree = "<group>"; };
+		4B2E84F4BC770D77709F77E68809A5CD /* Pods_MitBarrageCircleView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MitBarrageCircleView.framework; path = "Pods-MitBarrageCircleView.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F55BC0B938DF8597870BAC045090BAF /* Pods-MitBarrageCircleView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MitBarrageCircleView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		530520CBFE31A1DE84DA1559B18CC78D /* MitBarrageCircleView-iOS8.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MitBarrageCircleView-iOS8.0-dummy.m"; sourceTree = "<group>"; };
+		59F8043A55D1061C5051FDD54B5D2546 /* Pods_MitBarrageCircleView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MitBarrageCircleView_Tests.framework; path = "Pods-MitBarrageCircleView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		69184913B65D1B099F2F622189E719DA /* MitBarrageContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MitBarrageContentView.h; sourceTree = "<group>"; };
+		735C8E6E2FFDA284CF5903CF666CC209 /* MitBarrageCircleView-iOS8.0.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "MitBarrageCircleView-iOS8.0.xcconfig"; sourceTree = "<group>"; };
+		750997F5DF77069C07D4A77519DD8F8B /* MitBarrageCircleView-iOS8.0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "MitBarrageCircleView-iOS8.0.modulemap"; sourceTree = "<group>"; };
+		77ABC4827886414CE63A00A06629A9CC /* Pods-MitBarrageCircleView-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MitBarrageCircleView-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7B179447D03BB72B4E7D6C67F8BB14F2 /* MitBarrageItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MitBarrageItem.m; sourceTree = "<group>"; };
+		7F34E0B4AA04A57E0EF3B0DD6954F746 /* Pods-MitBarrageCircleView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MitBarrageCircleView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		87BF970522CC28B83FCB6D297E5DFB0A /* MitBarrageCircleView-iOS8.0-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MitBarrageCircleView-iOS8.0-umbrella.h"; sourceTree = "<group>"; };
+		8831EE2AF39DF72B6AE8B4A013CCBF47 /* MitBarrageCircleView-iOS8.3-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MitBarrageCircleView-iOS8.3-dummy.m"; path = "../MitBarrageCircleView-iOS8.3/MitBarrageCircleView-iOS8.3-dummy.m"; sourceTree = "<group>"; };
+		89FB623295EA8EA382CC2AAC0E188C20 /* Pods-MitBarrageCircleView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MitBarrageCircleView-umbrella.h"; sourceTree = "<group>"; };
+		8BDA123E8A475170833050360F8F6761 /* MitBarrageCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MitBarrageCell.m; sourceTree = "<group>"; };
+		8C7B4F2904473F35D4630C7288083D22 /* MitBarrageCircleView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MitBarrageCircleView.framework; path = "MitBarrageCircleView-iOS8.3.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AB22D93278B5E9DD9066E9C6289E1D80 /* MitBarrageCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MitBarrageCell.h; sourceTree = "<group>"; };
+		AD56A5556A3C261771A9FF3CA28FDFB0 /* MitBarrageCircleView-iOS8.0-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MitBarrageCircleView-iOS8.0-prefix.pch"; sourceTree = "<group>"; };
+		BA6A92FE854AD4D07A737484C80BD9BD /* MitBarrageItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MitBarrageItem.h; sourceTree = "<group>"; };
+		BF06D9E6F515B46DB21207F74E468BD9 /* MitBarrageCircleView-iOS8.3.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; name = "MitBarrageCircleView-iOS8.3.modulemap"; path = "../MitBarrageCircleView-iOS8.3/MitBarrageCircleView-iOS8.3.modulemap"; sourceTree = "<group>"; };
+		C676B62642230D6E45B05F88A2FD7CF0 /* MitBarrageCircleView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MitBarrageCircleView.framework; path = "MitBarrageCircleView-iOS8.0.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB5536363050CEE17AC129D68ECBA6B2 /* Pods-MitBarrageCircleView-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MitBarrageCircleView-acknowledgements.plist"; sourceTree = "<group>"; };
+		CC148CD771E3830D8E3EBB8CE7C2884C /* Pods-MitBarrageCircleView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MitBarrageCircleView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D1F4F70A3A269FEC45C15EB592C83EA2 /* MitBarrageCircleView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MitBarrageCircleView.h; sourceTree = "<group>"; };
+		D400569E5CF364548DE0B600D71571F7 /* MitBarrageCircleView-iOS8.3.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "MitBarrageCircleView-iOS8.3.xcconfig"; path = "../MitBarrageCircleView-iOS8.3/MitBarrageCircleView-iOS8.3.xcconfig"; sourceTree = "<group>"; };
+		D41FD4A123C8D352D85797534DDF0DE1 /* Pods-MitBarrageCircleView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MitBarrageCircleView.debug.xcconfig"; sourceTree = "<group>"; };
+		D608A92E2E77BE425D295C72AAF892BC /* MitBarrageCircleView-iOS8.3-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MitBarrageCircleView-iOS8.3-prefix.pch"; path = "../MitBarrageCircleView-iOS8.3/MitBarrageCircleView-iOS8.3-prefix.pch"; sourceTree = "<group>"; };
+		D69D86D7A73A6ABFBA1F84B2714933B5 /* Pods-MitBarrageCircleView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MitBarrageCircleView_Tests-dummy.m"; sourceTree = "<group>"; };
+		E3EC9E55A5E358CAFA899210DDED0809 /* Pods-MitBarrageCircleView-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MitBarrageCircleView-frameworks.sh"; sourceTree = "<group>"; };
+		E4731B465E709F7F7C7EBEED8080C954 /* Pods-MitBarrageCircleView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MitBarrageCircleView_Tests.modulemap"; sourceTree = "<group>"; };
+		EDFAC943BA7AB504E0F8B6C2232AE536 /* Pods-MitBarrageCircleView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MitBarrageCircleView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		EE415D90C79D579F15CB8DF71C15FE77 /* Pods-MitBarrageCircleView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MitBarrageCircleView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		F14C26AD70FF5FCCA6365B73CFCFFBDD /* Pods-MitBarrageCircleView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MitBarrageCircleView-dummy.m"; sourceTree = "<group>"; };
+		F9BE1AFECDC372C7D56A201F1EBD0FCB /* Pods-MitBarrageCircleView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MitBarrageCircleView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FC1B2798B076DD74F98C514BBD89079F /* Pods-MitBarrageCircleView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MitBarrageCircleView.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F98E5C974990E19E9EE636A09CC0608 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6377BD13E31AF30F18735560F6AACD4F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4C7ED5014C49724863A435AB47FA6DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33B0DFF3B6E79C495A64EB5DBDC91C1D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD0A30F78651779A0FABBC57526A9D1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E80C213729D49710C84A2D48E9B27040 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAB37015E454580E491E045B9AAE5671 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A9055DCF1E8CFE7EFD3062320EA74DB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		346421918B0076ED1758052F0243C8E2 /* Pods-MitBarrageCircleView */ = {
+			isa = PBXGroup;
+			children = (
+				011C4190DBBAC612699AC9016F0523BA /* Info.plist */,
+				FC1B2798B076DD74F98C514BBD89079F /* Pods-MitBarrageCircleView.modulemap */,
+				77ABC4827886414CE63A00A06629A9CC /* Pods-MitBarrageCircleView-acknowledgements.markdown */,
+				CB5536363050CEE17AC129D68ECBA6B2 /* Pods-MitBarrageCircleView-acknowledgements.plist */,
+				F14C26AD70FF5FCCA6365B73CFCFFBDD /* Pods-MitBarrageCircleView-dummy.m */,
+				E3EC9E55A5E358CAFA899210DDED0809 /* Pods-MitBarrageCircleView-frameworks.sh */,
+				224C72FFBCFA05F531935F989D7662A2 /* Pods-MitBarrageCircleView-resources.sh */,
+				89FB623295EA8EA382CC2AAC0E188C20 /* Pods-MitBarrageCircleView-umbrella.h */,
+				D41FD4A123C8D352D85797534DDF0DE1 /* Pods-MitBarrageCircleView.debug.xcconfig */,
+				45AB6C93C40DE3A646444E1FBF8D508C /* Pods-MitBarrageCircleView.release.xcconfig */,
+			);
+			name = "Pods-MitBarrageCircleView";
+			path = "Target Support Files/Pods-MitBarrageCircleView";
+			sourceTree = "<group>";
+		};
+		3517A749F4A44BE16F67EB67E86C32EE /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6D3C127738DCD687BA96F7DBB85F54A /* MitBarrageCircleView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5263D3F85D414B2BA493553D2952726E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4951420ACBB73DA94CE20C2F3FCA593A /* Info.plist */,
+				006DA88ECE78D059E822BA9C63B14ECC /* Info.plist */,
+				750997F5DF77069C07D4A77519DD8F8B /* MitBarrageCircleView-iOS8.0.modulemap */,
+				735C8E6E2FFDA284CF5903CF666CC209 /* MitBarrageCircleView-iOS8.0.xcconfig */,
+				530520CBFE31A1DE84DA1559B18CC78D /* MitBarrageCircleView-iOS8.0-dummy.m */,
+				AD56A5556A3C261771A9FF3CA28FDFB0 /* MitBarrageCircleView-iOS8.0-prefix.pch */,
+				87BF970522CC28B83FCB6D297E5DFB0A /* MitBarrageCircleView-iOS8.0-umbrella.h */,
+				BF06D9E6F515B46DB21207F74E468BD9 /* MitBarrageCircleView-iOS8.3.modulemap */,
+				D400569E5CF364548DE0B600D71571F7 /* MitBarrageCircleView-iOS8.3.xcconfig */,
+				8831EE2AF39DF72B6AE8B4A013CCBF47 /* MitBarrageCircleView-iOS8.3-dummy.m */,
+				D608A92E2E77BE425D295C72AAF892BC /* MitBarrageCircleView-iOS8.3-prefix.pch */,
+				08861194A9F8E94723596215D26DE06C /* MitBarrageCircleView-iOS8.3-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MitBarrageCircleView-iOS8.0";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				3517A749F4A44BE16F67EB67E86C32EE /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				844A22D400EC8B5DD15C4C64A0458EA2 /* Products */,
+				88479C33A35E76C2677F9F04D2CC39E5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		844A22D400EC8B5DD15C4C64A0458EA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C676B62642230D6E45B05F88A2FD7CF0 /* MitBarrageCircleView.framework */,
+				8C7B4F2904473F35D4630C7288083D22 /* MitBarrageCircleView.framework */,
+				4B2E84F4BC770D77709F77E68809A5CD /* Pods_MitBarrageCircleView.framework */,
+				59F8043A55D1061C5051FDD54B5D2546 /* Pods_MitBarrageCircleView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88479C33A35E76C2677F9F04D2CC39E5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				346421918B0076ED1758052F0243C8E2 /* Pods-MitBarrageCircleView */,
+				E5A16DC316BF0F1223C32209618E4A55 /* Pods-MitBarrageCircleView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E33E40FBE8B75F20E0185B845B897C1A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AB22D93278B5E9DD9066E9C6289E1D80 /* MitBarrageCell.h */,
+				8BDA123E8A475170833050360F8F6761 /* MitBarrageCell.m */,
+				D1F4F70A3A269FEC45C15EB592C83EA2 /* MitBarrageCircleView.h */,
+				1F89188AB5F0A7E6C261642CD6166A06 /* MitBarrageCircleView.m */,
+				69184913B65D1B099F2F622189E719DA /* MitBarrageContentView.h */,
+				3A7BB87FD5F8178F9F1BD8C6A069671E /* MitBarrageContentView.m */,
+				BA6A92FE854AD4D07A737484C80BD9BD /* MitBarrageItem.h */,
+				7B179447D03BB72B4E7D6C67F8BB14F2 /* MitBarrageItem.m */,
+				23F3050B7F0C78D028512E631CCFDC69 /* MitLeftAlignedLayout.h */,
+				042054C6B4C88C77784EBB64202C00F4 /* MitLeftAlignedLayout.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E5A16DC316BF0F1223C32209618E4A55 /* Pods-MitBarrageCircleView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				475347CB11DA1CB6BD9A756F328AB7E3 /* Info.plist */,
+				E4731B465E709F7F7C7EBEED8080C954 /* Pods-MitBarrageCircleView_Tests.modulemap */,
+				CC148CD771E3830D8E3EBB8CE7C2884C /* Pods-MitBarrageCircleView_Tests-acknowledgements.markdown */,
+				F9BE1AFECDC372C7D56A201F1EBD0FCB /* Pods-MitBarrageCircleView_Tests-acknowledgements.plist */,
+				D69D86D7A73A6ABFBA1F84B2714933B5 /* Pods-MitBarrageCircleView_Tests-dummy.m */,
+				EE415D90C79D579F15CB8DF71C15FE77 /* Pods-MitBarrageCircleView_Tests-frameworks.sh */,
+				028247C9DFBF5779A22810D71F916274 /* Pods-MitBarrageCircleView_Tests-resources.sh */,
+				7F34E0B4AA04A57E0EF3B0DD6954F746 /* Pods-MitBarrageCircleView_Tests-umbrella.h */,
+				EDFAC943BA7AB504E0F8B6C2232AE536 /* Pods-MitBarrageCircleView_Tests.debug.xcconfig */,
+				4F55BC0B938DF8597870BAC045090BAF /* Pods-MitBarrageCircleView_Tests.release.xcconfig */,
+			);
+			name = "Pods-MitBarrageCircleView_Tests";
+			path = "Target Support Files/Pods-MitBarrageCircleView_Tests";
+			sourceTree = "<group>";
+		};
+		F677EA064CDCE174004A1D5E94F6BF80 /* MitBarrageCircleView */ = {
+			isa = PBXGroup;
+			children = (
+				E33E40FBE8B75F20E0185B845B897C1A /* Classes */,
+			);
+			name = MitBarrageCircleView;
+			path = MitBarrageCircleView;
+			sourceTree = "<group>";
+		};
+		F6D3C127738DCD687BA96F7DBB85F54A /* MitBarrageCircleView */ = {
+			isa = PBXGroup;
+			children = (
+				F677EA064CDCE174004A1D5E94F6BF80 /* MitBarrageCircleView */,
+				5263D3F85D414B2BA493553D2952726E /* Support Files */,
+			);
+			name = MitBarrageCircleView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		678350F604F41BD13C751E43C04AE6B9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8288872188AE0D78F1EB24CF76DA5C16 /* Pods-MitBarrageCircleView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F65FFA5B2AAA58E3776254C3000D974 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56EC3623EA779534DF2EAE86928FDBFB /* Pods-MitBarrageCircleView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		939FAFCA34B06A314EC48365BA4E0CA5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FAB18258695DEDE9F4927491C581998 /* MitBarrageCell.h in Headers */,
+				833E390515094392DEBF67FBF4DE0949 /* MitBarrageCircleView-iOS8.3-umbrella.h in Headers */,
+				5A68F39D508D02B9BA0214FB8A493822 /* MitBarrageCircleView.h in Headers */,
+				7230FD45E9031F63D3D3147B02ACCF3B /* MitBarrageContentView.h in Headers */,
+				DC4D5E133FF6A9B87FD5EE44DB0A8BE7 /* MitBarrageItem.h in Headers */,
+				25BBAF900DA98A76C2C7820677B6CE8E /* MitLeftAlignedLayout.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE95783395B43CD674A16E901B3A1EF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				401F85FFB99A70B7C057095FDACD411C /* MitBarrageCell.h in Headers */,
+				6F3D0F7A92F001E644D9BEA4EE7A8B6D /* MitBarrageCircleView-iOS8.0-umbrella.h in Headers */,
+				72980B420B77252AE4B36E95596DE2E3 /* MitBarrageCircleView.h in Headers */,
+				AE6B906F973221B9C627A9CA2FC8D94A /* MitBarrageContentView.h in Headers */,
+				F23DC812F2B15DB70232235DE2E5499E /* MitBarrageItem.h in Headers */,
+				6F41DCB814E4DCA48D8C52351BC3C1F0 /* MitLeftAlignedLayout.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0A9E2A4A25D7E5FDA8ACEE22184943C6 /* Pods-MitBarrageCircleView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF7385DFC02DD7B2EF5B19FE157B2732 /* Build configuration list for PBXNativeTarget "Pods-MitBarrageCircleView_Tests" */;
+			buildPhases = (
+				DDDB26DC4BB13C4F75232F23AC0E6007 /* Sources */,
+				FAB37015E454580E491E045B9AAE5671 /* Frameworks */,
+				7F65FFA5B2AAA58E3776254C3000D974 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB13B03972D63B63FA182B9DA6187C11 /* PBXTargetDependency */,
+			);
+			name = "Pods-MitBarrageCircleView_Tests";
+			productName = "Pods-MitBarrageCircleView_Tests";
+			productReference = 59F8043A55D1061C5051FDD54B5D2546 /* Pods_MitBarrageCircleView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2CC4F132CBA5C495EC39B939748EF92C /* MitBarrageCircleView-iOS8.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65FFFE1DF04F0A2C1A1BBE976B802C15 /* Build configuration list for PBXNativeTarget "MitBarrageCircleView-iOS8.0" */;
+			buildPhases = (
+				22EE3F8F40778CA3EF519764FED69267 /* Sources */,
+				AD0A30F78651779A0FABBC57526A9D1D /* Frameworks */,
+				FAE95783395B43CD674A16E901B3A1EF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MitBarrageCircleView-iOS8.0";
+			productName = "MitBarrageCircleView-iOS8.0";
+			productReference = C676B62642230D6E45B05F88A2FD7CF0 /* MitBarrageCircleView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3B2C92E9E0C7615E14118707ED39E2B8 /* MitBarrageCircleView-iOS8.3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31AC7E1BE5670DBC6372611DC7D858E8 /* Build configuration list for PBXNativeTarget "MitBarrageCircleView-iOS8.3" */;
+			buildPhases = (
+				7E45EAF30EB5C88A7B37A7564D271776 /* Sources */,
+				2F98E5C974990E19E9EE636A09CC0608 /* Frameworks */,
+				939FAFCA34B06A314EC48365BA4E0CA5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MitBarrageCircleView-iOS8.3";
+			productName = "MitBarrageCircleView-iOS8.3";
+			productReference = 8C7B4F2904473F35D4630C7288083D22 /* MitBarrageCircleView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DFC88A949EBF032572EABE1059249004 /* Pods-MitBarrageCircleView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3944401521DBB82B0721260372C23347 /* Build configuration list for PBXNativeTarget "Pods-MitBarrageCircleView" */;
+			buildPhases = (
+				4A50636D6A468A2313257C1153145D93 /* Sources */,
+				A4C7ED5014C49724863A435AB47FA6DE /* Frameworks */,
+				678350F604F41BD13C751E43C04AE6B9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D00E8C14153D23F76B9A8B47BCF4937B /* PBXTargetDependency */,
+			);
+			name = "Pods-MitBarrageCircleView";
+			productName = "Pods-MitBarrageCircleView";
+			productReference = 4B2E84F4BC770D77709F77E68809A5CD /* Pods_MitBarrageCircleView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 844A22D400EC8B5DD15C4C64A0458EA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CC4F132CBA5C495EC39B939748EF92C /* MitBarrageCircleView-iOS8.0 */,
+				3B2C92E9E0C7615E14118707ED39E2B8 /* MitBarrageCircleView-iOS8.3 */,
+				DFC88A949EBF032572EABE1059249004 /* Pods-MitBarrageCircleView */,
+				0A9E2A4A25D7E5FDA8ACEE22184943C6 /* Pods-MitBarrageCircleView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22EE3F8F40778CA3EF519764FED69267 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33BF75C98CCB7A989DF6E44C4F62717A /* MitBarrageCell.m in Sources */,
+				C006C181F7F133F41CBE815CC6A54699 /* MitBarrageCircleView-iOS8.0-dummy.m in Sources */,
+				8E376A8B9150C98436E9B6D5C3EE730B /* MitBarrageCircleView.m in Sources */,
+				DD1DCBFF9846F399BF10807941CE61B8 /* MitBarrageContentView.m in Sources */,
+				FD9A5FD8A261638EA839C9A6848E44BA /* MitBarrageItem.m in Sources */,
+				0980BA8FF8FB5D4A259E19751CC8348E /* MitLeftAlignedLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A50636D6A468A2313257C1153145D93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64EC02EA2EAD03C35C864AC20BE11188 /* Pods-MitBarrageCircleView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E45EAF30EB5C88A7B37A7564D271776 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78C34FFD88F3AC0945398F2D5485BF2A /* MitBarrageCell.m in Sources */,
+				23B333FEC0D70C2F9F37F2302ED5B0F9 /* MitBarrageCircleView-iOS8.3-dummy.m in Sources */,
+				8119B0AA0FA1F2EDF6158B1C9ED010C9 /* MitBarrageCircleView.m in Sources */,
+				987E2D970C8832C8367F2384407BA8DA /* MitBarrageContentView.m in Sources */,
+				328C2A06DA1DD9E5D5C382EC4F06B29C /* MitBarrageItem.m in Sources */,
+				C3C60013E6B14DA3350FFB62066720D6 /* MitLeftAlignedLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDDB26DC4BB13C4F75232F23AC0E6007 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0EA98901BC8AEF0B40F734458AB435C /* Pods-MitBarrageCircleView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D00E8C14153D23F76B9A8B47BCF4937B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MitBarrageCircleView-iOS8.0";
+			target = 2CC4F132CBA5C495EC39B939748EF92C /* MitBarrageCircleView-iOS8.0 */;
+			targetProxy = 89EE979C799C59D791D6F3717A317991 /* PBXContainerItemProxy */;
+		};
+		EB13B03972D63B63FA182B9DA6187C11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MitBarrageCircleView-iOS8.3";
+			target = 3B2C92E9E0C7615E14118707ED39E2B8 /* MitBarrageCircleView-iOS8.3 */;
+			targetProxy = D64312205581B0C82E8EDD5B2B8090E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0F860E3BE6C7CEF0F732D0A587DCA5F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDFAC943BA7AB504E0F8B6C2232AE536 /* Pods-MitBarrageCircleView_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MitBarrageCircleView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MitBarrageCircleView_Tests/Pods-MitBarrageCircleView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MitBarrageCircleView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		206DB6B69E9EA305B687CB43CE76DF32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D400569E5CF364548DE0B600D71571F7 /* MitBarrageCircleView-iOS8.3.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MitBarrageCircleView-iOS8.3/MitBarrageCircleView-iOS8.3-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MitBarrageCircleView-iOS8.3/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MitBarrageCircleView-iOS8.3/MitBarrageCircleView-iOS8.3.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MitBarrageCircleView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		34FE9531DA9AF2820790339988D5FF41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3EF2BC149F3CB9CA52A946C23C43CAD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 735C8E6E2FFDA284CF5903CF666CC209 /* MitBarrageCircleView-iOS8.0.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MitBarrageCircleView-iOS8.0/MitBarrageCircleView-iOS8.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MitBarrageCircleView-iOS8.0/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MitBarrageCircleView-iOS8.0/MitBarrageCircleView-iOS8.0.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MitBarrageCircleView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		58A8241E410A57F3F9447835FB8C02AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45AB6C93C40DE3A646444E1FBF8D508C /* Pods-MitBarrageCircleView.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MitBarrageCircleView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MitBarrageCircleView/Pods-MitBarrageCircleView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MitBarrageCircleView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C104F7F091290C3D1E248192F07FE689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C630560BF9F405A1E166AB2F86E7CDE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D41FD4A123C8D352D85797534DDF0DE1 /* Pods-MitBarrageCircleView.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MitBarrageCircleView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MitBarrageCircleView/Pods-MitBarrageCircleView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MitBarrageCircleView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D67ED676BA6DF60F5CE18C8D8220A6F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F55BC0B938DF8597870BAC045090BAF /* Pods-MitBarrageCircleView_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MitBarrageCircleView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MitBarrageCircleView_Tests/Pods-MitBarrageCircleView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MitBarrageCircleView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DB7AA363AACD5AB6B1349DB3DFBD534A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D400569E5CF364548DE0B600D71571F7 /* MitBarrageCircleView-iOS8.3.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MitBarrageCircleView-iOS8.3/MitBarrageCircleView-iOS8.3-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MitBarrageCircleView-iOS8.3/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MitBarrageCircleView-iOS8.3/MitBarrageCircleView-iOS8.3.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MitBarrageCircleView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F23C0A3E9BFDF61E45489CDC0C90BE2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 735C8E6E2FFDA284CF5903CF666CC209 /* MitBarrageCircleView-iOS8.0.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MitBarrageCircleView-iOS8.0/MitBarrageCircleView-iOS8.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MitBarrageCircleView-iOS8.0/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MitBarrageCircleView-iOS8.0/MitBarrageCircleView-iOS8.0.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MitBarrageCircleView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C104F7F091290C3D1E248192F07FE689 /* Debug */,
+				34FE9531DA9AF2820790339988D5FF41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31AC7E1BE5670DBC6372611DC7D858E8 /* Build configuration list for PBXNativeTarget "MitBarrageCircleView-iOS8.3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB7AA363AACD5AB6B1349DB3DFBD534A /* Debug */,
+				206DB6B69E9EA305B687CB43CE76DF32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3944401521DBB82B0721260372C23347 /* Build configuration list for PBXNativeTarget "Pods-MitBarrageCircleView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C630560BF9F405A1E166AB2F86E7CDE5 /* Debug */,
+				58A8241E410A57F3F9447835FB8C02AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65FFFE1DF04F0A2C1A1BBE976B802C15 /* Build configuration list for PBXNativeTarget "MitBarrageCircleView-iOS8.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EF2BC149F3CB9CA52A946C23C43CAD2 /* Debug */,
+				F23C0A3E9BFDF61E45489CDC0C90BE2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF7385DFC02DD7B2EF5B19FE157B2732 /* Build configuration list for PBXNativeTarget "Pods-MitBarrageCircleView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F860E3BE6C7CEF0F732D0A587DCA5F6 /* Debug */,
+				D67ED676BA6DF60F5CE18C8D8220A6F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

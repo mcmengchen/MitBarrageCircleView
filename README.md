@@ -22,7 +22,7 @@ pod "MitBarrageCircleView"
 
 ## Author
 
-mcmengchen, mengchen04@baidu.com
+mcmengchen, 416922992@qq.com
 
 ## License
 

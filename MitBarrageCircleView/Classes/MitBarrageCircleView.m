@@ -1,10 +1,10 @@
 
 //
 //  MitBarrageCircleView.m
-//  Hao123News
+//  mc
 //
 //  Created by Meng,Chen on 2017/4/12.
-//  Copyright © 2017年 Baidu. All rights reserved.
+//  Copyright © 2017年 mc. All rights reserved.
 //
 
 #import "MitBarrageCircleView.h"
@@ -22,6 +22,11 @@
  定时器
  */
 @property(nonatomic, strong)CADisplayLink * timer;
+
+/** 
+ 约束类型
+ */
+@property (nonatomic, assign) MitAlignType collectionAlignType;
 @end
 
 //默认创建3个内容视图
@@ -44,7 +49,7 @@ static NSInteger kDefaultNumOfContentViews = 3;
     //设置imageView的frame
     for (int i = 0; i<kDefaultNumOfContentViews; i++) {
         MitBarrageContentView * vi = self.scrollView.subviews[i];
-        vi.frame = CGRectMake(i * self.scrollView.width, 0, self.scrollView.frame.size.width, self.scrollView.frame.size.height);
+        vi.frame = CGRectMake(i * self.scrollView.frame.size.width, 0, self.scrollView.frame.size.width, self.scrollView.frame.size.height);
     }
     //设置内容
     [self updateContent];
@@ -53,9 +58,10 @@ static NSInteger kDefaultNumOfContentViews = 3;
 
 #pragma mark - override
 
--(instancetype)initWithFrame:(CGRect)frame{
+-(instancetype)initWithFrame:(CGRect)frame alignType:(MitAlignType)type{
     if (self = [super initWithFrame:frame]) {
         self.scrollView.hidden = false;
+        self.collectionAlignType = type;
         [self createContentView];
     }
     return self;
@@ -69,8 +75,8 @@ static NSInteger kDefaultNumOfContentViews = 3;
  @param frame 尺寸
  @return 实例
  */
-+(instancetype)scrollViewWithFrame:(CGRect)frame{
-    return [[self alloc] initWithFrame:frame];
++(instancetype)viewWithFrame:(CGRect)frame alignType:(MitAlignType)type{
+    return [[self alloc] initWithFrame:frame alignType:type];
 }
 
 /**
@@ -222,7 +228,7 @@ static NSInteger kDefaultNumOfContentViews = 3;
  */
 - (void)createContentView{
     for (int i = 0; i<kDefaultNumOfContentViews; i++) {
-        MitBarrageContentView * vi = [[MitBarrageContentView alloc]initWithFrame:self.bounds];
+        MitBarrageContentView * vi = [MitBarrageContentView viewWithFrame:self.bounds alignType:self.collectionAlignType];
         if (self.collectionBackColor) {
             vi.collectionView.backgroundColor = self.collectionBackColor;
         }else{

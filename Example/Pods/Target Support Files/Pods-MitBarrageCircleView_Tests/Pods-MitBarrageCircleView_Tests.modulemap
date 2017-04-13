@@ -1,0 +1,6 @@
+framework module Pods_MitBarrageCircleView_Tests {
+  umbrella header "Pods-MitBarrageCircleView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

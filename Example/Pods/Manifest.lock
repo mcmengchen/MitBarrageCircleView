@@ -1,0 +1,16 @@
+PODS:
+  - MitBarrageCircleView (0.1.0)
+
+DEPENDENCIES:
+  - MitBarrageCircleView (from `../`)
+
+EXTERNAL SOURCES:
+  MitBarrageCircleView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MitBarrageCircleView: 1876aba78b018a8c3c5f691ac48ebe83a6c267da
+
+PODFILE CHECKSUM: cc1b20ced0953fb9d18bb989c8990499ffa40901
+
+COCOAPODS: 1.2.0

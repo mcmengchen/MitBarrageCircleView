@@ -1,14 +1,14 @@
 //
-//  BDHKCollectionViewLeftAlignedLayout.h
-//  Hao123News
+//  MitLeftAlignedLayout.h
+//  mc
 //
-//  Created by Wang,Zhongbin on 16/9/27.
-//  Copyright © 2016年 Baidu. All rights reserved.
+//  Created by mc on 17/4/12.
+//  Copyright © 2016年 mc. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface BDHKCollectionViewLeftAlignedLayout : UICollectionViewFlowLayout
+@interface MitLeftAlignedLayout : UICollectionViewFlowLayout
 
 @end
 

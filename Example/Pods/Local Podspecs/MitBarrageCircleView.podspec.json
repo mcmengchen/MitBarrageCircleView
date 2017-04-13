@@ -1,0 +1,22 @@
+{
+  "name": "MitBarrageCircleView",
+  "version": "0.1.0",
+  "summary": "A short description of MitBarrageCircleView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/mcmengchen/MitBarrageCircleView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "mcmengchen": "416922992@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/mcmengchen/MitBarrageCircleView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MitBarrageCircleView/Classes/**/*"
+}

@@ -1,9 +1,9 @@
 //
 //  MitBarrageCircleView.h
-//  Hao123News
+//  mc
 //
 //  Created by Meng,Chen on 2017/4/12.
-//  Copyright © 2017年 Baidu. All rights reserved.
+//  Copyright © 2017年 mc. All rights reserved.
 //
 
 
@@ -56,7 +56,9 @@
  */
 
 #import <UIKit/UIKit.h>
+#import "MitBarrageContentView.h"
 @class MitBarrageItem;
+
 
 
 /**
@@ -75,7 +77,7 @@ typedef void (^BDHJSearchBarrageItemClickBack)(MitBarrageItem * item, NSInteger 
  @param frame 尺寸
  @return 实例
  */
-+ (instancetype)scrollViewWithFrame:(CGRect)frame;
++ (instancetype)viewWithFrame:(CGRect)frame alignType:(MitAlignType)type;
 
 /**
  数据源

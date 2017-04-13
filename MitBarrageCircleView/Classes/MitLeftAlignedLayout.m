@@ -1,20 +1,20 @@
 //
-//  BDHKCollectionViewLeftAlignedLayout.m
-//  Hao123News
+//  MitLeftAlignedLayout.m
+//  mc
 //
-//  Created by Wang,Zhongbin on 16/9/27.
-//  Copyright © 2016年 Baidu. All rights reserved.
+//  Created by mc on 17/4/12.
+//  Copyright © 2016年 mc. All rights reserved.
 //
 
-#import "BDHKCollectionViewLeftAlignedLayout.h"
+#import "MitLeftAlignedLayout.h"
 
-@interface UICollectionViewLayoutAttributes (BDHKCollectionViewLeftAlignedLayout)
+@interface UICollectionViewLayoutAttributes (MitLeftAlignedLayout)
 
 - (void)leftAlignFrameWithSectionInset:(UIEdgeInsets)sectionInset;
 
 @end
 
-@implementation UICollectionViewLayoutAttributes (BDHKCollectionViewLeftAlignedLayout)
+@implementation UICollectionViewLayoutAttributes (MitLeftAlignedLayout)
 
 - (void)leftAlignFrameWithSectionInset:(UIEdgeInsets)sectionInset
 {
@@ -27,7 +27,7 @@
 
 #pragma mark -
 
-@implementation BDHKCollectionViewLeftAlignedLayout
+@implementation MitLeftAlignedLayout
 
 #pragma mark - UICollectionViewLayout
 

@@ -1,14 +1,15 @@
 //
 //  MitBarrageContentView.m
-//  Hao123News
+//  mc
 //
 //  Created by Meng,Chen on 2017/4/12.
-//  Copyright © 2017年 Baidu. All rights reserved.
+//  Copyright © 2017年 mc. All rights reserved.
 //
 
 #import "MitBarrageContentView.h"
 #import "MitBarrageItem.h"
 #import "MitBarrageCell.h"
+#import "MitLeftAlignedLayout.h"
 @interface MitBarrageContentView ()<UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout>
 
 
@@ -35,14 +36,22 @@
 
 
 #pragma mark - override
--(instancetype)initWithFrame:(CGRect)frame{
+-(instancetype)initWithFrame:(CGRect)frame alignType:(MitAlignType)alignType{
     if (self = [super initWithFrame:frame]) {
+        self.alignType = alignType;
         [self addSubview:self.collectionView];
         [self.collectionView reloadData];
-        
     }
     return self;
+    
 }
+
++(instancetype)viewWithFrame:(CGRect)frame alignType:(MitAlignType)alignType{
+    return [[self alloc] initWithFrame:frame alignType:alignType];
+}
+
+
+
 #pragma mark - public methods
 -(void)setDataSource:(NSArray<MitBarrageItem *> *)dataSource{
     _dataSource = dataSource;
@@ -106,7 +115,7 @@
  */
 - (UICollectionView *)collectionView{
     if (!_collectionView) {
-        BDHKCollectionViewLeftAlignedLayout *flowLayout = [[BDHKCollectionViewLeftAlignedLayout alloc] init];
+        MitLeftAlignedLayout *flowLayout = [[MitLeftAlignedLayout alloc] init];
         flowLayout.minimumInteritemSpacing = 10;
         flowLayout.minimumLineSpacing = 10;
         flowLayout.sectionInset = UIEdgeInsetsMake(0, 10, 0, 10);

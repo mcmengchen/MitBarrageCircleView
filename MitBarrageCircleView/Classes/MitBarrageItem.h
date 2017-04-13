@@ -1,14 +1,14 @@
 //
 //  MitBarrageItem.h
-//  Hao123News
+//  mc
 //
 //  Created by Meng,Chen on 2017/4/12.
-//  Copyright © 2017年 Baidu. All rights reserved.
+//  Copyright © 2017年 mc. All rights reserved.
 //
 
-#import "BDHKJastor.h"
+#import <Foundation/Foundation.h>
 
-@interface MitBarrageItem : BDHKJastor
+@interface MitBarrageItem : NSObject
 /** 文本内容 */
 @property (nonatomic, copy) NSString * content;
 /** 文本高度 */

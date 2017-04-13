@@ -7,41 +7,90 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01F06CFCC4752385032E05B7 /* Pods_MitBarrageCircleView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28A300519F112E317CAFA0AF /* Pods_MitBarrageCircleView_Tests.framework */; };
-		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
-		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
-		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
-		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
-		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		25BB19DE1E9F191000587937 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BB19DD1E9F191000587937 /* main.m */; };
+		25BB19E11E9F191000587937 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BB19E01E9F191000587937 /* AppDelegate.m */; };
+		25BB19E41E9F191000587937 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BB19E31E9F191000587937 /* ViewController.m */; };
+		25BB19E71E9F191000587937 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25BB19E51E9F191000587937 /* Main.storyboard */; };
+		25BB19E91E9F191000587937 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25BB19E81E9F191000587937 /* Assets.xcassets */; };
+		25BB19EC1E9F191000587937 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25BB19EA1E9F191000587937 /* LaunchScreen.storyboard */; };
+		25BB19F71E9F191000587937 /* MitBarrageCircleViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BB19F61E9F191000587937 /* MitBarrageCircleViewTests.m */; };
+		25BB1A021E9F191100587937 /* MitBarrageCircleViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BB1A011E9F191100587937 /* MitBarrageCircleViewUITests.m */; };
+		475DD9C3DAC5717A1E4C0D3B /* Pods_MitBarrageCircleView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E59F287B6FBA8A071D3D2B85 /* Pods_MitBarrageCircleView.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		25BB19F31E9F191000587937 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6003F582195388D10070C39A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25BB19D91E9F191000587937;
+			remoteInfo = MitBarrageCircleView;
+		};
+		25BB19FE1E9F191100587937 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6003F582195388D10070C39A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25BB19D91E9F191000587937;
+			remoteInfo = MitBarrageCircleView;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		05E053A97BD70E14F77145B6 /* MitBarrageCircleView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MitBarrageCircleView.podspec; path = ../MitBarrageCircleView.podspec; sourceTree = "<group>"; };
+		05E053A97BD70E14F77145B6 /* MitBarrageCircleView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; lineEnding = 0; name = MitBarrageCircleView.podspec; path = ../MitBarrageCircleView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = "<none>"; };
 		182C8BD2A2D765E4F67FEF90 /* Pods-MitBarrageCircleView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MitBarrageCircleView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MitBarrageCircleView_Tests/Pods-MitBarrageCircleView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		25BB19DA1E9F191000587937 /* MitBarrageCircleView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MitBarrageCircleView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25BB19DD1E9F191000587937 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		25BB19DF1E9F191000587937 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		25BB19E01E9F191000587937 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		25BB19E21E9F191000587937 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		25BB19E31E9F191000587937 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		25BB19E61E9F191000587937 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		25BB19E81E9F191000587937 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		25BB19EB1E9F191000587937 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		25BB19ED1E9F191000587937 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25BB19F21E9F191000587937 /* MitBarrageCircleViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MitBarrageCircleViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		25BB19F61E9F191000587937 /* MitBarrageCircleViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MitBarrageCircleViewTests.m; sourceTree = "<group>"; };
+		25BB19F81E9F191000587937 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25BB19FD1E9F191000587937 /* MitBarrageCircleViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MitBarrageCircleViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		25BB1A011E9F191100587937 /* MitBarrageCircleViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MitBarrageCircleViewUITests.m; sourceTree = "<group>"; };
+		25BB1A031E9F191100587937 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28A300519F112E317CAFA0AF /* Pods_MitBarrageCircleView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MitBarrageCircleView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		378404E640BB1D6DE634447E /* Pods-MitBarrageCircleView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MitBarrageCircleView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MitBarrageCircleView/Pods-MitBarrageCircleView.debug.xcconfig"; sourceTree = "<group>"; };
 		4598BA0E5F45260200D969F9 /* Pods-MitBarrageCircleView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MitBarrageCircleView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MitBarrageCircleView_Tests/Pods-MitBarrageCircleView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		6003F5AE195388D20070C39A /* MitBarrageCircleView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MitBarrageCircleView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		60E10B0359A382A2ACA3EDA9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		EC9763A4AC0EF2772A0FA818 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		60E10B0359A382A2ACA3EDA9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; lineEnding = 0; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = "<none>"; };
+		A61F38E28012EFA843D0EF65 /* Pods-MitBarrageCircleView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MitBarrageCircleView.release.xcconfig"; path = "Pods/Target Support Files/Pods-MitBarrageCircleView/Pods-MitBarrageCircleView.release.xcconfig"; sourceTree = "<group>"; };
+		E59F287B6FBA8A071D3D2B85 /* Pods_MitBarrageCircleView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MitBarrageCircleView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC9763A4AC0EF2772A0FA818 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; lineEnding = 0; name = README.md; path = ../README.md; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.markdown; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6003F5AB195388D20070C39A /* Frameworks */ = {
+		25BB19D71E9F191000587937 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
-				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
-				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				01F06CFCC4752385032E05B7 /* Pods_MitBarrageCircleView_Tests.framework in Frameworks */,
+				475DD9C3DAC5717A1E4C0D3B /* Pods_MitBarrageCircleView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25BB19EF1E9F191000587937 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25BB19FA1E9F191000587937 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,8 +102,52 @@
 			children = (
 				182C8BD2A2D765E4F67FEF90 /* Pods-MitBarrageCircleView_Tests.debug.xcconfig */,
 				4598BA0E5F45260200D969F9 /* Pods-MitBarrageCircleView_Tests.release.xcconfig */,
+				378404E640BB1D6DE634447E /* Pods-MitBarrageCircleView.debug.xcconfig */,
+				A61F38E28012EFA843D0EF65 /* Pods-MitBarrageCircleView.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		25BB19DB1E9F191000587937 /* MitBarrageCircleView */ = {
+			isa = PBXGroup;
+			children = (
+				25BB19DF1E9F191000587937 /* AppDelegate.h */,
+				25BB19E01E9F191000587937 /* AppDelegate.m */,
+				25BB19E21E9F191000587937 /* ViewController.h */,
+				25BB19E31E9F191000587937 /* ViewController.m */,
+				25BB19E51E9F191000587937 /* Main.storyboard */,
+				25BB19E81E9F191000587937 /* Assets.xcassets */,
+				25BB19EA1E9F191000587937 /* LaunchScreen.storyboard */,
+				25BB19ED1E9F191000587937 /* Info.plist */,
+				25BB19DC1E9F191000587937 /* Supporting Files */,
+			);
+			path = MitBarrageCircleView;
+			sourceTree = "<group>";
+		};
+		25BB19DC1E9F191000587937 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25BB19DD1E9F191000587937 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		25BB19F51E9F191000587937 /* MitBarrageCircleViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				25BB19F61E9F191000587937 /* MitBarrageCircleViewTests.m */,
+				25BB19F81E9F191000587937 /* Info.plist */,
+			);
+			path = MitBarrageCircleViewTests;
+			sourceTree = "<group>";
+		};
+		25BB1A001E9F191100587937 /* MitBarrageCircleViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				25BB1A011E9F191100587937 /* MitBarrageCircleViewUITests.m */,
+				25BB1A031E9F191100587937 /* Info.plist */,
+			);
+			path = MitBarrageCircleViewUITests;
 			sourceTree = "<group>";
 		};
 		6003F581195388D10070C39A = {
@@ -62,6 +155,9 @@
 			children = (
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F5B5195388D20070C39A /* Tests */,
+				25BB19DB1E9F191000587937 /* MitBarrageCircleView */,
+				25BB19F51E9F191000587937 /* MitBarrageCircleViewTests */,
+				25BB1A001E9F191100587937 /* MitBarrageCircleViewUITests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				0F5C3CF3069D022D81BAC48D /* Pods */,
@@ -71,7 +167,9 @@
 		6003F58B195388D20070C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6003F5AE195388D20070C39A /* MitBarrageCircleView_Tests.xctest */,
+				25BB19DA1E9F191000587937 /* MitBarrageCircleView.app */,
+				25BB19F21E9F191000587937 /* MitBarrageCircleViewTests.xctest */,
+				25BB19FD1E9F191000587937 /* MitBarrageCircleViewUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,6 +182,7 @@
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
 				28A300519F112E317CAFA0AF /* Pods_MitBarrageCircleView_Tests.framework */,
+				E59F287B6FBA8A071D3D2B85 /* Pods_MitBarrageCircleView.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -120,25 +219,61 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6003F5AD195388D20070C39A /* MitBarrageCircleView_Tests */ = {
+		25BB19D91E9F191000587937 /* MitBarrageCircleView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "MitBarrageCircleView_Tests" */;
+			buildConfigurationList = 25BB1A0A1E9F191100587937 /* Build configuration list for PBXNativeTarget "MitBarrageCircleView" */;
 			buildPhases = (
-				2876DBCAAB97CBE149B279BE /* [CP] Check Pods Manifest.lock */,
-				6003F5AA195388D20070C39A /* Sources */,
-				6003F5AB195388D20070C39A /* Frameworks */,
-				6003F5AC195388D20070C39A /* Resources */,
-				21011AE1FF0ACF6D8737B1F6 /* [CP] Embed Pods Frameworks */,
-				C88E7E4C9CC005B29771B660 /* [CP] Copy Pods Resources */,
+				E8CC8C891C4D318E6F179FAA /* [CP] Check Pods Manifest.lock */,
+				25BB19D61E9F191000587937 /* Sources */,
+				25BB19D71E9F191000587937 /* Frameworks */,
+				25BB19D81E9F191000587937 /* Resources */,
+				2EDD272433C36B59385B2F16 /* [CP] Embed Pods Frameworks */,
+				61F0B3D705165B47752BC347 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = MitBarrageCircleView_Tests;
+			name = MitBarrageCircleView;
+			productName = MitBarrageCircleView;
+			productReference = 25BB19DA1E9F191000587937 /* MitBarrageCircleView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		25BB19F11E9F191000587937 /* MitBarrageCircleViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25BB1A0B1E9F191100587937 /* Build configuration list for PBXNativeTarget "MitBarrageCircleViewTests" */;
+			buildPhases = (
+				25BB19EE1E9F191000587937 /* Sources */,
+				25BB19EF1E9F191000587937 /* Frameworks */,
+				25BB19F01E9F191000587937 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25BB19F41E9F191000587937 /* PBXTargetDependency */,
+			);
+			name = MitBarrageCircleViewTests;
 			productName = MitBarrageCircleViewTests;
-			productReference = 6003F5AE195388D20070C39A /* MitBarrageCircleView_Tests.xctest */;
+			productReference = 25BB19F21E9F191000587937 /* MitBarrageCircleViewTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		25BB19FC1E9F191000587937 /* MitBarrageCircleViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25BB1A0C1E9F191100587937 /* Build configuration list for PBXNativeTarget "MitBarrageCircleViewUITests" */;
+			buildPhases = (
+				25BB19F91E9F191000587937 /* Sources */,
+				25BB19FA1E9F191000587937 /* Frameworks */,
+				25BB19FB1E9F191000587937 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25BB19FF1E9F191100587937 /* PBXTargetDependency */,
+			);
+			name = MitBarrageCircleViewUITests;
+			productName = MitBarrageCircleViewUITests;
+			productReference = 25BB19FD1E9F191000587937 /* MitBarrageCircleViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -147,11 +282,25 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = Mit;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = mcmengchen;
 				TargetAttributes = {
-					6003F5AD195388D20070C39A = {
-						TestTargetID = 6003F589195388D20070C39A;
+					25BB19D91E9F191000587937 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = T43EX2XKU3;
+						ProvisioningStyle = Automatic;
+					};
+					25BB19F11E9F191000587937 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = T43EX2XKU3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 25BB19D91E9F191000587937;
+					};
+					25BB19FC1E9F191000587937 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = T43EX2XKU3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 25BB19D91E9F191000587937;
 					};
 				};
 			};
@@ -168,24 +317,42 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6003F5AD195388D20070C39A /* MitBarrageCircleView_Tests */,
+				25BB19D91E9F191000587937 /* MitBarrageCircleView */,
+				25BB19F11E9F191000587937 /* MitBarrageCircleViewTests */,
+				25BB19FC1E9F191000587937 /* MitBarrageCircleViewUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6003F5AC195388D20070C39A /* Resources */ = {
+		25BB19D81E9F191000587937 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
+				25BB19EC1E9F191000587937 /* LaunchScreen.storyboard in Resources */,
+				25BB19E91E9F191000587937 /* Assets.xcassets in Resources */,
+				25BB19E71E9F191000587937 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25BB19F01E9F191000587937 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25BB19FB1E9F191000587937 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		21011AE1FF0ACF6D8737B1F6 /* [CP] Embed Pods Frameworks */ = {
+		2EDD272433C36B59385B2F16 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -197,10 +364,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MitBarrageCircleView_Tests/Pods-MitBarrageCircleView_Tests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MitBarrageCircleView/Pods-MitBarrageCircleView-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		2876DBCAAB97CBE149B279BE /* [CP] Check Pods Manifest.lock */ = {
+		61F0B3D705165B47752BC347 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MitBarrageCircleView/Pods-MitBarrageCircleView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8CC8C891C4D318E6F179FAA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -215,35 +397,67 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		C88E7E4C9CC005B29771B660 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MitBarrageCircleView_Tests/Pods-MitBarrageCircleView_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6003F5AA195388D20070C39A /* Sources */ = {
+		25BB19D61E9F191000587937 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+				25BB19E41E9F191000587937 /* ViewController.m in Sources */,
+				25BB19E11E9F191000587937 /* AppDelegate.m in Sources */,
+				25BB19DE1E9F191000587937 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25BB19EE1E9F191000587937 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25BB19F71E9F191000587937 /* MitBarrageCircleViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25BB19F91E9F191000587937 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25BB1A021E9F191100587937 /* MitBarrageCircleViewUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		25BB19F41E9F191000587937 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25BB19D91E9F191000587937 /* MitBarrageCircleView */;
+			targetProxy = 25BB19F31E9F191000587937 /* PBXContainerItemProxy */;
+		};
+		25BB19FF1E9F191100587937 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25BB19D91E9F191000587937 /* MitBarrageCircleView */;
+			targetProxy = 25BB19FE1E9F191100587937 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
+		25BB19E51E9F191000587937 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25BB19E61E9F191000587937 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		25BB19EA1E9F191000587937 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25BB19EB1E9F191000587937 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		6003F5B8195388D20070C39A /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -255,6 +469,151 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		25BB1A041E9F191100587937 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 378404E640BB1D6DE634447E /* Pods-MitBarrageCircleView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = T43EX2XKU3;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = MitBarrageCircleView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = aaa.MitBarrageCircleView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		25BB1A051E9F191100587937 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A61F38E28012EFA843D0EF65 /* Pods-MitBarrageCircleView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = T43EX2XKU3;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = MitBarrageCircleView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = aaa.MitBarrageCircleView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		25BB1A061E9F191100587937 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = T43EX2XKU3;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = MitBarrageCircleViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = aaa.MitBarrageCircleViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MitBarrageCircleView.app/MitBarrageCircleView";
+			};
+			name = Debug;
+		};
+		25BB1A071E9F191100587937 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = T43EX2XKU3;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = MitBarrageCircleViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = aaa.MitBarrageCircleViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MitBarrageCircleView.app/MitBarrageCircleView";
+			};
+			name = Release;
+		};
+		25BB1A081E9F191100587937 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = T43EX2XKU3;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = MitBarrageCircleViewUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = aaa.MitBarrageCircleViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MitBarrageCircleView;
+			};
+			name = Debug;
+		};
+		25BB1A091E9F191100587937 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = T43EX2XKU3;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = MitBarrageCircleViewUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = aaa.MitBarrageCircleViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MitBarrageCircleView;
+			};
+			name = Release;
+		};
 		6003F5BD195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -268,14 +627,19 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -308,13 +672,18 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -328,65 +697,41 @@
 			};
 			name = Release;
 		};
-		6003F5C3195388D20070C39A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 182C8BD2A2D765E4F67FEF90 /* Pods-MitBarrageCircleView_Tests.debug.xcconfig */;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Tests/Tests-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MitBarrageCircleView_Example.app/MitBarrageCircleView_Example";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		6003F5C4195388D20070C39A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4598BA0E5F45260200D969F9 /* Pods-MitBarrageCircleView_Tests.release.xcconfig */;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
-				INFOPLIST_FILE = "Tests/Tests-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MitBarrageCircleView_Example.app/MitBarrageCircleView_Example";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		25BB1A0A1E9F191100587937 /* Build configuration list for PBXNativeTarget "MitBarrageCircleView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25BB1A041E9F191100587937 /* Debug */,
+				25BB1A051E9F191100587937 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25BB1A0B1E9F191100587937 /* Build configuration list for PBXNativeTarget "MitBarrageCircleViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25BB1A061E9F191100587937 /* Debug */,
+				25BB1A071E9F191100587937 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25BB1A0C1E9F191100587937 /* Build configuration list for PBXNativeTarget "MitBarrageCircleViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25BB1A081E9F191100587937 /* Debug */,
+				25BB1A091E9F191100587937 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		6003F585195388D10070C39A /* Build configuration list for PBXProject "MitBarrageCircleView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5BD195388D20070C39A /* Debug */,
 				6003F5BE195388D20070C39A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "MitBarrageCircleView_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6003F5C3195388D20070C39A /* Debug */,
-				6003F5C4195388D20070C39A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
